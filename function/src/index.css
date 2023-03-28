@@ -1,0 +1,52 @@
+
+
+.main {
+    width: 60%;
+    margin: 5px auto;
+    background: #666;
+    border-radius: 7px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.accordion {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.accordion-item {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-content {
+    display: none;
+}
+
+.active {
+     display: block;
+}
+
+.buttons {
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+button {
+    padding: 3px;
+    margin: 3px;
+}
+
+button:active {
+    background-color: aqua;
+}
