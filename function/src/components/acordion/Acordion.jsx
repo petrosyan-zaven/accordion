@@ -13,8 +13,6 @@ const Acordion = (props) => {
         setFlag(!flag)
     }
 
-  
-    
       const { name, capital } = country;
     
       return (

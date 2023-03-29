@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Acordion from './components/acordion/Acordion'
 import Buttons from './components/buttons/Buttons'
+import AppClass from './classcomponent/appclass/AppClass'
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
 console.log(page);
   return (
     <div className='app'>
-    <h1>React Accordion Demo</h1>
+    <h1>React Accordion in function component</h1>
       {
         dataArray?.map((item, index) => {
           return (
@@ -42,6 +43,7 @@ console.log(page);
       <div className="buttons">
           <Buttons length={length} getPage={getPage} count={count}/>
       </div>
+      <AppClass />
     </div>
   )
 }

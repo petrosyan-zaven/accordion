@@ -1,5 +1,9 @@
 
-
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    
+}
 .main {
     width: 60%;
     margin: 5px auto;
@@ -34,6 +38,8 @@ h1 {
 
 .active {
      display: block;
+     transition: all 3s linear;
+
 }
 
 .buttons {
