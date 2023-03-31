@@ -34,7 +34,7 @@ export class AppClass extends Component {
                 return <Acordion key={index} item={item} />
             })
         }
-        <Buttonclass length={length} count={count} getPage={this.getPage} />
+        <div className="buttons"><Buttonclass length={length} count={count} getPage={this.getPage} /></div>
       </div>
     )
   }

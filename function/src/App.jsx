@@ -2,7 +2,8 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Acordion from './components/acordion/Acordion'
 import Buttons from './components/buttons/Buttons'
-import AppClass from './classcomponent/appclass/AppClass'
+
+
 
 function App() {
 
@@ -43,7 +44,7 @@ console.log(page);
       <div className="buttons">
           <Buttons length={length} getPage={getPage} count={count}/>
       </div>
-      <AppClass />
+      {/* <AppClass /> */}
     </div>
   )
 }

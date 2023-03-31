@@ -6,9 +6,11 @@ export class Buttonclass extends Component {
     }
     
   render() {
+
     const {length, count, getPage} = this.props;
     const pageCount = Math.ceil(length / count);
     const arr = Array.from({length: pageCount}, (_, index) => index + 1)
+    
     return (
         arr?.map((el, index) => {
             return (

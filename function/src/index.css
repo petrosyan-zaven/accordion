@@ -2,13 +2,35 @@
 * {
     margin: 0; padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     
 }
+
 .main {
     width: 60%;
     margin: 5px auto;
     background: #666;
     border-radius: 7px;
+}
+
+.main:hover {
+    cursor: pointer;
+    transform: translate(1.1);
+}
+
+.Nav {
+    
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Nav a {
+    padding: 10px;
+}
+
+.Nav a:active {
+    color: red;
 }
 
 h1 {
